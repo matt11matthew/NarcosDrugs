@@ -1,0 +1,6 @@
+name: ${project.name}
+version: ${project.version}
+main: ${pluginPackage}.${pluginName}
+authors: [MatthewE]
+description: ${project.name}
+depend: [Citizens, HolographicDisplays, Vault]

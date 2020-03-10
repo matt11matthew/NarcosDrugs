@@ -1,0 +1,55 @@
+settings:
+  maxLevel: 20
+  startingLevel: 0
+  startingExperience: 0
+levels:
+  1:
+    onLevelUp:
+      commands:
+        "pay %player% %100-200%"
+      message:
+        enabled: true
+        type: title/message/action
+        message: "%prefix%Congrats on reaching level &7&l%level%&3."
+        actionBar:
+          text: "&3Congrats on reaching level &7&l%level%&3."
+          stay: 40
+          fadeIn: 10
+          fadeOut: 10
+        title:
+          main: "&3&lLevel up"
+          sub: "&7Congrats on reaching level &3%level%&7!"
+          stay: 40
+          fadeIn: 10
+          fadeOut: 10
+      broadcast: false # Replace with "Message" to send a broadcast message
+      effects:
+        fireworks:
+          enabled: true
+          count: 3
+          delayBetween: 5
+          firwork:
+            power: 2
+            flicker: true
+            color: red
+        sound:
+          enabled: true
+          name: "LEVEL_UP"
+          volume: 1.0
+          pitch: 1.0
+    neededExperience: 2000
+    unlockedDrugs:
+      - test
+    prices:
+      test: 100.0
+    qualityChances:
+      test:
+        bad: 100%
+        good: 1%
+        epic: 0%
+    experienceGain:
+      test:
+        amount: "53-105"
+        piston:
+          enabled: true
+          multiplier: 0.05 # 5% of experience

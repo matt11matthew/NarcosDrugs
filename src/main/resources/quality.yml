@@ -1,0 +1,12 @@
+bad:
+  lore: "&7&oBad"
+  defaultChance: 90
+  sellMultiplier: 0.5
+good:
+  lore: "&a&oGood"
+  defaultChance: 20.0
+  sellMultiplier: 1.5
+epic:
+  lore: "&ka&r &5&oEpic &ka&r"
+  defaultChance: "10%"
+  sellMultiplier: 2.5
